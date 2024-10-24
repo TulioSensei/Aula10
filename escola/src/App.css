@@ -1,4 +1,42 @@
-body{
+body
+{
   margin: 0;
   padding: 0;
+}
+
+header
+{
+  margin: 0;
+  padding: 0 20px;
+  width: 100;
+  height: 100px;
+  background-color: darkred;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a
+{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+header a:hover
+{
+  text-decoration: underline;
+  font-size: 22px;
+}
+header a + a
+{
+  margin-left: 10px;
+}
+
+.conteudo
+{
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
 }

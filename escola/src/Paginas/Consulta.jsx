@@ -2,7 +2,7 @@ export default function Consulta()
 {
     return(
         <div>
-            <h1>Consulta</h1>
+            <h1>Consulta de Alunos</h1>
         </div>
     );
 }
